@@ -49,12 +49,6 @@ public class ArrayDeque<T> implements Deque<T> {
     return size;
   }
 
-
-  @Override
-  public boolean isEmpty() {
-    return size() == 0;
-  }
-
   /**
    *
    * Magic sauce
